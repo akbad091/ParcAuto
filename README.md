@@ -51,9 +51,9 @@ Créer un fichier `.env` à la racine du projet :
 PORT=3000
 ```
 
-Le port du serveur est ainsi configurable sans modifier le code.
+Le port du server est ainsi configurable sans modifier le code.
 
-### 3. Démarrer le serveur
+### 3. Démarrer le server
 
 Mode normal :
 
@@ -67,7 +67,7 @@ Mode développement :
 npm run dev
 ```
 
-Le serveur démarre sur :
+Le server démarre sur :
 
 ```text
 http://localhost:3000
@@ -111,7 +111,7 @@ Chaque véhicule possède les propriétés suivantes :
 }
 ```
 
-- `id` : attribué automatiquement par le serveur.
+- `id` : attribué automatiquement par le server.
 - `marque` : marque du véhicule (obligatoire).
 - `modele` : modèle du véhicule (obligatoire).
 - `immatriculation` : numéro d'immatriculation (obligatoire).
@@ -234,7 +234,7 @@ Un middleware placé après les routes renvoie une réponse JSON lorsqu'une rout
 
 Les véhicules sont stockés dans un tableau JavaScript en mémoire.
 
-Les données ajoutées, modifiées ou supprimées ne sont donc pas conservées après le redémarrage du serveur.
+Les données ajoutées, modifiées ou supprimées ne sont donc pas conservées après le redémarrage du server.
 
 ## Auteur
 
